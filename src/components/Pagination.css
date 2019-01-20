@@ -1,0 +1,14 @@
+:local(.paginationSection) {
+  background: #FFFFFF;
+  padding: 10px;
+  text-align: right;
+}
+
+:local(.paginationButton),
+:local(.paginationButton):active,
+:local(.paginationButton):focus,
+:local(.paginationButton):hover {
+  margin-left: auto;
+  color: #5C75B0;
+  margin: 0 5px;
+}

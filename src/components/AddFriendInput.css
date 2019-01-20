@@ -4,3 +4,24 @@
   border-left: 0;
   border-right: 0;
 }
+
+:local(.genderInputForm) {
+  background: #FFFFFF;
+  border-bottom: 1px solid #ABAAAA;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+:local(.label) {
+  padding: 0 10px;
+  font-weight: normal;
+}
+
+:local(.addButton),
+:local(.addButton):active,
+:local(.addButton):focus,
+:local(.addButton):hover {
+  margin-left: auto;
+  color: #5C75B0;
+}
