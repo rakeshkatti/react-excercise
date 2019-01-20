@@ -12,7 +12,7 @@ class FriendListApp extends Component {
 			friendlist: { friendsById }
 		} = this.props;
 		const pageStart = (page - 1) * pageSize;
-		const pageEnd = pageStart + parseInt(pageSize);
+		const pageEnd = pageStart + parseInt(pageSize, 10);
 		const friends = friendsById.slice(pageStart, pageEnd);
 
 		const actions = {

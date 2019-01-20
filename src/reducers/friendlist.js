@@ -26,11 +26,11 @@ export default function friends(state = initialState, action) {
 			return {
 				...state,
 				friendsById: [
-					...state.friendsById,
 					{
 						name: action.name,
 						gender: action.gender
-					}
+					},
+					...state.friendsById
 				]
 			};
 		case types.DELETE_FRIEND:
