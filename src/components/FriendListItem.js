@@ -10,7 +10,9 @@ class FriendListItem extends Component {
 		return (
 			<li className={styles.friendListItem}>
 				<div className={styles.friendInfos}>
-					<div>{name}</div>
+					<div>
+						<span>{name}</span>
+					</div>
 					<div>
 						<small>Sex: {gender}</small>
 					</div>
